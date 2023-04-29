@@ -1,0 +1,73 @@
+User
+{
+    "name":"batman",
+    "email":"batman@gmail.com",
+    "password":"batman123",
+    "address":{
+        "street":"dark st.",
+        "city":"gotham",
+        "state":"ny",
+        "country":"usa",
+        "zip":"654123"
+    }
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NDRjYmNkZTE0MGEwMzQyOGU3MzljNWUiLCJpYXQiOjE2ODI3NTU5NDd9.NWB5AyMMLv9NNds6zk1VUbEbwAfv5S-AMY1gJ_xj_oY
+
+
+Reset
+{
+    "cur_pass":"batman",
+    "new_pass":"batman456"
+}
+
+
+Restaurant
+{
+    "name":"Res-1",
+    "address":{
+        "street":"dark st.",
+        "city":"gotham",
+        "state":"ny",
+        "country":"usa",
+        "zip":"654123"
+    },
+    "menu":[{
+        "name":"item-1",
+        "description":"i-1 des",
+        "price":200,
+        "image":"img-1"
+    },
+    {
+        "name":"item-2",
+        "description":"i-2 des",
+        "price":400,
+        "image":"img-2"
+    },
+    {
+        "name":"item-3",
+        "description":"i-3 des",
+        "price":500,
+        "image":"img-3"
+    }]
+}
+
+Order
+{
+   "items": [{
+     "name": "item-2",
+     "price": 500,
+     "quantity": 2
+   },{
+     "name": "item-5",
+     "price": 400,
+     "quantity": 3
+   }],
+   "deliveryAddress": {
+     "street": "St-2",
+     "city": "City-3",
+     "state": "State-4",
+     "country": "Country-5",
+     "zip": "563214"
+   },
+   "restaurantID":"644cc7d9c31b7ac1e323907e"
+}
